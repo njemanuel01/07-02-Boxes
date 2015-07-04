@@ -1,0 +1,37 @@
+/* Box model fix */
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.main {
+  background: blue;
+}
+
+.column1 {
+  float: left;
+  width: 40%;
+  padding: 10px;
+}
+
+.column2 {
+  float: left;
+  width: 40%;
+  padding: 10px;
+}
+
+.column3 {
+  float: left;
+  width: 20%;
+}
+
+.column3 input {
+  margin-top: 60px;
+}
+
+.main {
+  color: white;
+}
